@@ -13,6 +13,10 @@
   <remote  name="liquid"
            fetch="https://github.com/LiquidRemix"
            revision="pie" />
+  
+  <remote  name="proton"
+           fetch="https://github.com/Protonoid"
+           revision="pie" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
@@ -545,13 +549,13 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-  <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="liquid" />
+  <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="proton" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <!--<project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="proton" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="liquid" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="liquid" />
@@ -582,9 +586,9 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="liquid" />-->
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="liquid" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="proton" />
   <!--<project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" groups="pdk-fs" remote="liquid" />-->
-  <project path="packages/apps/LiquidLounge" name="android_packages_apps_LiquidLounge" remote="liquid" />
+  <project path="packages/apps/ProtonExtensions" name="android_packages_apps_ProtonExtensions" remote="proton" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="liquid" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
@@ -596,7 +600,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="proton" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="liquid" />
   <!-- FINISH LIQUID -->
 
