@@ -1,13 +1,12 @@
-LiquidRemix
-==============
+<p align="center"><img src="https://avatars0.githubusercontent.com/u/43915549?s=200&v=4" /></p>
 
 Getting Started
 ----------------
 
-To get started with Android/LiquidRemix, you'll need to get
+To get started with Android/Protonoid, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LiquidRemix trees, use a command like this:
+To initialize your local repository using the Protonoid trees, use a command like this:
 
     repo init -u git://github.com/Protonoid/android_manifest.git -b pie
 
